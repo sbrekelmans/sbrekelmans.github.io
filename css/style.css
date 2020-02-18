@@ -1,9 +1,4 @@
-/*
-    Theme Name: Bell
-    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
@@ -13,6 +8,7 @@ p {
   color: #333;
   font-size: 400;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-align: justify;
 }
 
 h1 {
@@ -71,6 +67,29 @@ a {
 .btn-ghost:hover {
   background-color: #fff;
   color: #199EB8;
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client {
+  filter: none;
+  -webkit-filter: grayscale(100%);
+  -moz-filter:    grayscale(100%);
+  -ms-filter:     grayscale(100%);
+  -o-filter:      grayscale(100%);
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.client:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter:    grayscale(0%);
+  -ms-filter:     grayscale(0%);
+  -o-filter:      grayscale(0%);
 }
 
 section {
@@ -371,6 +390,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
+  .hero::before {
+    background-image: url(/img/cover.jpg);
+    }
+    
+
   #mobile-nav-toggle {
     display: inline;
   }
@@ -942,7 +967,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   .hero {
     padding: 75px 0;
+    background-image: url(/img/event375x812.jpg);
   }
+
+
   .stats-col {
     margin-bottom: 25px;
   }
