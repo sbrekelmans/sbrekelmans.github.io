@@ -434,13 +434,14 @@ a:hover {
 
 #mobile-nav ul li {
   position: relative;
+  margin: 10px; 
 }
 
 #mobile-nav ul li a {
   color: #fff;
   font-size: 20px;
   overflow: hidden;
-  margin: 8px; 
+  
   padding: 30px 22px 10px 15px;
   position: relative;
   text-decoration: none;
