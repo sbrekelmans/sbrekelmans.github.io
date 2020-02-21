@@ -1,12 +1,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://svenbrekelmans.nl/</loc>
-        <lastmod>2020-02-21T14:19:47+01:00</lastmod>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
+        <loc>https://svenbrekelmans.nl/incompany.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://svenbrekelmans.nl/workshops.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://svenbrekelmans.nl/lezingen.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://svenbrekelmans.nl/consultancy.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://svenbrekelmans.nl/pilots.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
+        <loc>https://svenbrekelmans.nl/tokenomics.html</loc>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
+    </url>
+    <url>
         <loc>https://svenbrekelmans.nl/index.html</loc>
-        <lastmod>2020-02-21T14:19:47+01:00</lastmod>
-        <priority>0.80</priority>
+        <lastmod>2020-02-21T15:53:45+00:00</lastmod>
+        <priority>0.40</priority>
     </url>
 </urlset>
