@@ -425,6 +425,7 @@ a:hover {
   padding: 0;
   margin: 0;
   list-style: none;
+  line-height: 4;
 }
 
 #mobile-nav ul li {
@@ -433,7 +434,7 @@ a:hover {
 
 #mobile-nav ul li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
   position: relative;
@@ -490,6 +491,7 @@ body.mobile-nav-active #mobile-nav {
 
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
+  line-height: 5;
 }
 
 /* ==================================================
