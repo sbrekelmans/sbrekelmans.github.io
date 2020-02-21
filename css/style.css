@@ -1007,6 +1007,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .site-footer .list-inline li {
     display: inline-block;
   }
+
+  .footer-menu {
+    display: none;
+  }
+  
 }
 
 @media (max-width: 767px) {
