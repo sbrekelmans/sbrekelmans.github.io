@@ -1014,6 +1014,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   .site-footer .list-inline {
     text-align: center;
+    margin: 15px;
     padding-bottom: 15px;
   }
   .site-footer .list-inline li {
