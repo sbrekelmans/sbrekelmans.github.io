@@ -921,12 +921,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 .site-footer .bottom .list-inline {
   position: relative;
   top: 5px;
+
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 1rem;
 }
 
 .site-footer .bottom .list-inline a {
   color: #fff;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .site-footer .bottom .list-inline a:hover {
