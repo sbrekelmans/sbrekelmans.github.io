@@ -79,6 +79,12 @@
         }
     }
     </script>
+    <script>
+      function send_email() {
+        em = "bWFpbHR" + "vOmluZm9Ac3ZlbmJyZWtlbG1hbnMubmw=";
+        document.location = atob(em);
+      }
+    </script>
   <!-- Page Content ================================================== -->
   <!-- Hero -->
 
@@ -98,7 +104,7 @@
         <h2 class="tagline">
           Een spoor van vernieuwing
         </h2>
-        <a class="btn btn-full" href="mailto:info@svenbrekelmans.nl">Neem contact op</a>
+        <a class="btn btn-full" onclick="send_email()">Neem contact op</a>
       </div>
     </div>
 
