@@ -84,6 +84,13 @@
         em = "bWFpbHR" + "vOmluZm9Ac3ZlbmJyZWtlbG1hbnMubmw=";
         document.location = atob(em);
       }
+      phone = "MDYgMjcyMiA5NjQx";
+      email = "aW5mb0BzdmVuYnJla2VsbWFucy5ubA==";
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById("phonenumber").innerHTML = atob(phone);
+        document.getElementById("emailaddress").innerHTML = atob(email);
+      }, false);
+      
     </script>
   <!-- Page Content ================================================== -->
   <!-- Hero -->
@@ -135,7 +142,7 @@
         <a href="https://twitter.com/svenbrekelmans" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/svenbrekelmans" target="_blank"><i class="fa fa-linkedin"></i></a>
         <a href="https://t.me/svenblockchain" target="_blank"><i class="fa fa-telegram"></i></a>
-        <a href="mailto:info@svenbrekelmans.nl"><i class="fa fa-envelope"></i></a>
+        <a onclick="send_email()"><i class="fa fa-envelope"></i></a>
       </nav>
     </div>
   </header>
@@ -386,7 +393,7 @@
         </div>
 
         <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-          <a class="btn btn-ghost" href="mailto:info@svenbrekelmans.nl">Koffie afspraak</a>
+          <a class="btn btn-ghost" onclick="send_email()">Koffie afspraak</a>
         </div>
       </div>
     </div>
@@ -574,16 +581,16 @@
           <div class="info">
 
             <div>
-              <a href="mailto:info@svenbrekelmans.nl">
+              <a onclick="send_email()">
                 <i class="fa fa-envelope"></i>
 
-                <p>info@svenbrekelmans.nl</p>
+                <p id="emailaddress">-------------</p>
               </a>
             </div>
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>06 2722 9641</p>
+              <p id="phonenumber">----------</p>
             </div>
 
             <div>
